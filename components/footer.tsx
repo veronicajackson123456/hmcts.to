@@ -83,6 +83,13 @@ export function Footer() {
                   Technology Integration
                 </Link>
               </li>
+            </ul>
+          </div>
+
+          {/* Legal */}
+          <div>
+            <h3 className="font-bold text-gray-900 mb-4">Legal</h3>
+            <ul className="space-y-3 text-sm">
               <li>
                 <Link href="/terms" className="text-gray-700 hover:text-teal-600">
                   Terms & Conditions
@@ -91,6 +98,31 @@ export function Footer() {
               <li>
                 <Link href="/privacy" className="text-gray-700 hover:text-teal-600">
                   Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/cookie-policy" className="text-gray-700 hover:text-teal-600">
+                  Cookie Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/disclaimer" className="text-gray-700 hover:text-teal-600">
+                  Disclaimer
+                </Link>
+              </li>
+              <li>
+                <Link href="/acceptable-use" className="text-gray-700 hover:text-teal-600">
+                  Acceptable Use Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/data-protection" className="text-gray-700 hover:text-teal-600">
+                  Data Protection
+                </Link>
+              </li>
+              <li>
+                <Link href="/service-level-agreement" className="text-gray-700 hover:text-teal-600">
+                  Service Level Agreement
                 </Link>
               </li>
             </ul>
